@@ -7,6 +7,10 @@ namespace Composer\Autoload;
 class ComposerStaticInit48f27cb85ec54f785da0d3b0ce566c52
 {
     public static $prefixLengthsPsr4 = array (
+        't' => 
+        array (
+            'think\\' => 6,
+        ),
         'n' => 
         array (
             'ninvfeng\\' => 9,
@@ -14,6 +18,10 @@ class ComposerStaticInit48f27cb85ec54f785da0d3b0ce566c52
     );
 
     public static $prefixDirsPsr4 = array (
+        'think\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/topthink/think-validate/src',
+        ),
         'ninvfeng\\' => 
         array (
             0 => __DIR__ . '/..' . '/ninvfeng/mongodb/src',

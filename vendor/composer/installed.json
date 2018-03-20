@@ -82,5 +82,44 @@
             "mysql",
             "php"
         ]
+    },
+    {
+        "name": "topthink/think-validate",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/top-think/think-validate.git",
+            "reference": "2fd2f1305b0d013f235679bfcb398a37d400b0e5"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://files.phpcomposer.com/files/top-think/think-validate/2fd2f1305b0d013f235679bfcb398a37d400b0e5.zip",
+            "reference": "2fd2f1305b0d013f235679bfcb398a37d400b0e5",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6.0"
+        },
+        "time": "2017-11-17T03:58:39+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "think\\": "src"
+            },
+            "files": []
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "liu21st",
+                "email": "liu21st@gmail.com"
+            }
+        ],
+        "description": "think validate"
     }
 ]

@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'think\\' => array($vendorDir . '/topthink/think-validate/src'),
     'ninvfeng\\' => array($vendorDir . '/ninvfeng/mongodb/src', $vendorDir . '/ninvfeng/mysql/src'),
 );
