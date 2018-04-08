@@ -1,5 +1,6 @@
 <template>
     <div class="main">
+        {{name}}
         <div class="v">
             <div class="img" style="height:200px;background-image:url(https://ws4.sinaimg.cn/large/006tNc79gy1fp22tf7jctj31400dcmy6.jpg)"></div>
             <span class="title">苹果将放缓更新脚步，你所期待的新特性可能不会在 iOS 12 上见到</span>
@@ -14,6 +15,15 @@
         </div>
     </div>
 </template>
+<script>
+export default{
+    data(){
+        return {
+            name:'ninvfeng'
+        }
+    }
+}
+</script>
 <style lang="scss" scoped>
     .main{
         width:1000px;

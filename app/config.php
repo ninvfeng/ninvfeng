@@ -5,7 +5,7 @@ return [
     //数据库配置
     'mysql'=>[
         'host'=>'localhost',
-        'name'=>'live',
+        'name'=>'ninvfeng',
         'user'=>'root',
         'pass'=>'root'
     ],
@@ -20,7 +20,7 @@ return [
     'mongodb'=>[
         'host'=>'localhost',
         'port'=>'27017',
-        'name'=>'live'
+        'name'=>'ninvfeng'
     ],
 
 ];
